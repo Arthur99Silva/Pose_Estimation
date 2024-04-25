@@ -63,7 +63,7 @@ class poseDetector():
         return angle
 
 def main():
-    cap = cv2.VideoCapture('PoseVideos/yoga2.mp4')
+    cap = cv2.VideoCapture('PoseVideos/gym2.mp4')
     pTime = 0
     detector = poseDetector(detectionCon=False, trackCon=False)  # Pass boolean values here
     while True:
